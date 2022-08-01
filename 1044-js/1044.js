@@ -3,6 +3,11 @@ const lines = prompt('Digite os valores de entrada').split(' ') //testar no html
 
 var [A,B] = lines.map(Number);
 
+const AB = lines.shift().split(" ");
+
+const A = parseInt(AB.shift());
+const B = parseInt(AB.shift());
+
 if ((A%B ===0) || (B%A ===0)){
     console.log("Sao Multiplos");
 }else{
