@@ -1,7 +1,7 @@
 
-//const lines = prompt('Digite os valores de entrada').split(' ') //testar no html
+const lines = prompt('Digite os valores de entrada').split(' ') //testar no html
 
-//var [A,B,C] = lines.map(String);
+var [A,B,C] = lines.map(String);
 
 const ABC = lines.shift().split("\n");
 
